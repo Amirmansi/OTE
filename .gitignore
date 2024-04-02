@@ -1,0 +1,8 @@
+.DS_Store
+*.pyc
+*.egg-info
+*.swp
+tags
+dox_theme/docs/current
+node_modules/
+dox_theme/public/dist
