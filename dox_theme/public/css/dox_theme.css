@@ -1,4 +1,4 @@
-/* .layout-side-section {
+.layout-side-section {
     background-color: #06345d;
 }
 
@@ -22,7 +22,6 @@ header.navbar.navbar-expand.sticky-top {
     color: #06345d;
 }
 
-
 .list-sidebar .sidebar-section {
     padding: 10px;
 }
@@ -37,7 +36,6 @@ header.navbar.navbar-expand.sticky-top {
     background-color: #4191D0;
 }
 
-
 .standard-sidebar .standard-sidebar-item.selected,
 .search-dialog .search-results .search-sidebar .standard-sidebar-item.selected,
 .desk-sidebar .standard-sidebar-item.selected {
@@ -50,14 +48,10 @@ header.navbar.navbar-expand.sticky-top {
     background-color: #06345d;
 }
 
-
-
 .desk-sidebar-item.selected {
     background-color: #204F79;
     border: 1px solid white;
 }
-
-
 
 .page-content .desk-sidebar-item a,
 .desk-sidebar-item.selected a,
@@ -83,22 +77,18 @@ header.navbar.navbar-expand.sticky-top {
 [data-page-route="Workspaces"] .layout-main .layout-side-section,
 [data-page-route="Workspaces"] .layout-main .layout-main-section-wrapper {
     scrollbar-color: #27AAE1 transparent;
-    scrollbar-width: unset;
+    scrollbar-width: thin;
 }
 
 [data-page-route="Workspaces"] .layout-main .layout-side-section::-webkit-scrollbar,
 [data-page-route="Workspaces"] .layout-main .layout-main-section-wrapper::-webkit-scrollbar {
     width: 5px;
-    scrollbar-color: #27AAE1 transparent;
-    scrollbar-width: unset;
 }
 
 [data-page-route="Workspaces"] .layout-main .layout-side-section::-webkit-scrollbar-thumb,
 [data-page-route="Workspaces"] .layout-main .layout-main-section-wrapper::-webkit-scrollbar-thumb {
     background: #27AAE1;
     border-radius: 20px;
-    scrollbar-color: #27AAE1 transparent;
-    scrollbar-width: unset;
 }
 
 [data-page-route="Workspaces"] .layout-main .layout-side-section::-webkit-scrollbar-track,
@@ -114,7 +104,6 @@ header.navbar.navbar-expand.sticky-top {
     stroke: #fff !important;
     fill: transparent;
     stroke-width: 2;
-    stroke: #fff;
 }
 
 .standard-sidebar-label {
@@ -197,20 +186,20 @@ header.navbar.navbar-expand.sticky-top {
     font-size: 14px;
 }
 
-[data-theme=dark] .title-area .title-text{
+[data-theme=dark] .title-area .title-text {
     color: #1F272E;
 }
+
 [data-theme=dark] .widget.links-widget-box .link-item {
     color: #fff;
-} 
+}
 
 .nav-link.lang-icon::before {
     content: "\f0ac";
     font: normal normal normal 14px/1 FontAwesome;
     margin-right: 4px;
-} */
-
+}
 
 li.dropdown.dropdown.dropdown-help.dropdown-mobile {
-	display: none!important;
+    display: none !important;
 }
